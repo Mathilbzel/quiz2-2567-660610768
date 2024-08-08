@@ -1,5 +1,5 @@
 "use client";
-import { PostOwnerProps } from "@/libs/types";
+import { PostOwnnerProps } from "@/libs/types";
 
 export default function PostOwnner({}) {
   return (
@@ -18,12 +18,12 @@ export default function PostOwnner({}) {
           </div>
 
           <span className="text-white">
-            {Post}
+            {post}
           </span>
 
           <div className="d-flex align-items-center gap-1">
             <img src="/like.svg" width={20}></img>
-            <span style={{ color: "#B0B3B8" }}>{LikeNum} คน</span>
+            <span style={{ color: "#B0B3B8" }}>{likeNum} คน</span>
           </div>
           <hr className="m-0 border" />
         </div>

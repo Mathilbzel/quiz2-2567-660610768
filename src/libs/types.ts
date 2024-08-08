@@ -1,14 +1,14 @@
 // You can define interfaces for all React components here.
 // Do not forget to export properly.
 
-interface PostOwnerProps {
+interface PostOwnnerProps {
     postImagePath: string;
     StuName: string;
     ID: string;
     post: string;
     likeNum: number;
   }
-  {export type PostOwnerProps}
+  {export type PostOwnnerProps};
   interface CommentProps {
     userImagePath: string;
     username: string;
@@ -21,7 +21,7 @@ interface PostOwnerProps {
       likeNum: number;
     })[];
   }
-  {export type CommentProps}
+  {export type CommentProps};
   
   interface ReplyProps {
     userImagePath?: string;

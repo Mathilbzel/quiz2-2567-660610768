@@ -17,13 +17,13 @@ export default function Reply({ userImagePath, username, replyText, likeNum }:Re
             style={{ backgroundColor: "#3A3B3C" }}
           >
             <span className="fw-semibold" style={{ color: "#E4E6EB" }}>
-              {Username}
+              {username}
             </span>
             <br />
-            <span style={{ color: "#E4E6EB" }}>จริงค้าบบบบบบบบ</span>
+            <span style={{ color: "#E4E6EB" }}>{replyText}</span>
             <div className="d-flex align-items-center gap-1">
               <img src="/like.svg" width={20}></img>
-              <span style={{ color: "#B0B3B8" }}>2 คน</span>
+              <span style={{ color: "#B0B3B8" }}>{likeNum} คน</span>
             </div>
           </div>
         </div>
